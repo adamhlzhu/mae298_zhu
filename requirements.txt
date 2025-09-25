@@ -4,5 +4,9 @@ pandas
 matplotlib
 os
 openmdao   
-Aviary
 dymos
+Aviary
+# for Aviary
+# git clone https://github.com/OpenMDAO/Aviary
+# cd Aviary
+# pip install .
