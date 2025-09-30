@@ -15,6 +15,3 @@ class Test:
             except ImportError:
                 print(f"Could not import {pkg}")
 
-if __name__ == "__main__":
-    test = Test()
-    test.import_packages()
