@@ -24,8 +24,12 @@ uv run python your_script.py
 5. Add a new package to the project
 uv add PACKAGE_NAME
 (This updates pyproject.toml and the lockfile, then installs.)
+Always commit both pyproject.toml and uv.lock after adding a new package.
 
 6. Inspect dependencies
 uv tree
 
 Note: Added "[tool.uv.sources] -/ aviary = {path = "Aviary"}" to the "pyproject.toml" to correctly get the "toml" from Aviary file.
+
+## Working folder
+Each branch contains a working folder corresponding to its subsystem. Please write your code and data within the working folder for the part you are responsible for. This structure will make it easier to merge branches into main later and should simplify integrating all subsystems in the future.
