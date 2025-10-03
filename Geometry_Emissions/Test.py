@@ -1,0 +1,1 @@
+print("This is a geometry emissions working folder")
